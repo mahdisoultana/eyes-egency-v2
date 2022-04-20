@@ -1,0 +1,55 @@
+{
+<<<<<<< HEAD
+  "name": "Dranis Next Demo",
+  "short_name": "Dranis PWA",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#30B2D2",
+  "background_color": "#30B2D2",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
+=======
+    "theme_color": "#4a90e2",
+    "background_color": "#4a90e2",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "draniss PWA Demo",
+    "short_name": "Draniss PWA",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
+>>>>>>> 14427d364633c651f53eff22531c68428b416a1a

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  .img,
+  .img span,
+  .img div {
+    @apply w-full h-full !important;
+  }
+  .r-img img {
+    @apply rounded-full;
+  }
+  .underline {
+    @apply md:ml-6 ml-2 h-[3px] mb-5   w-[15%] bg-secondary/50;
+  }
+  .btn {
+    @apply active:scale-95 active:opacity-30 my-6 px-12 py-4 text-lg text-white   shadow-gray-900/20 shadow-sm  bg-gradient-to-tl from-secondary via-secondary/90 to-secondary  dark:from-brand dark:via-brand/90 dark:to-brand hover:bg-gradient-to-br transition-all duration-100 hover:scale-105 rounded-sm font-medium hover:shadow-xl;
+  }
+}
+
+.gradientImg {
+  background: linear-gradient(to right, #023564, transparent),
+    url("/images/headerbg.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
