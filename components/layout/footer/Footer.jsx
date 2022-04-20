@@ -147,7 +147,7 @@ function Footer() {
         </section>
         <div>
           <p className="text-center font-medium text-sm dark:text-white mt-6 text-gray-900  ">
-            Copyright © 2022 fait par l'agence Digitaleaders. Tous droits
+            Copyright © 2022 Developez par <a href='https://github.com/Mahdi-Soultana' target='_blank'>Mahdi Soultana </a>  et designer par  l'agence Digitaleaders. Tous droits
             réservés.
           </p>
         </div>
